@@ -1,0 +1,36 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+    color: white;
+}
+h1{
+    font-family: Impact;
+    font-size: 80px;
+    color: white;
+}
+p {
+    font-size: 35px;
+    color: white;
+}
+tr{
+    height: 70px;
+}
+th {
+    color: white;
+}
+table {
+    border-collapse: separate; 
+    border-spacing: 0 2em;
+  }
+textarea{
+    height: 140px;
+}
+button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+button:hover {
+    background-color: green;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="text-center pt-5">
+            <h2 class="mb3">To Do List</h2>
+            <input type="text" oninput="search(this.value)" id="searchInput" placeholder="search for tasks" class="form-control">
+            
+        </div>
+
+        <div class="col-md-4">
+            <div class=" py-5 py-5" >
+                <form action="">
+                    <label for="name" class="text-capitalize">title</label>
+                    <input type=" text" id="name" class="form-control mb-3">
+                    <label for="desc" class="text-capitalize">description</label>
+                    <textarea type=" text" id="desc" class="form-control mb-3 " ></textarea> 
+                    <button class="btn btn-success w-100 h-25" onclick="addTask()">save</button>
+                </form>
+    
+                </div>
+        </div>
+        <div class="col-md-8 ">
+            <table class="table text-center rounded-3">
+                <thead class="pb-3">
+                    <th>index</th>
+                    <th>title</th>
+                    <th>description</th>
+                    <th>delete</th>
+                </thead>
+                <tbody id="tableBody">
+        
+                </tbody>
+            </table>
+        
+    </div>
+    </div>
+ 
+</div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
